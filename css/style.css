@@ -19,7 +19,7 @@ body {
 }
 
 p {
-  color: #969BAB;
+  color: #969bab;
   font-size: 16px;
 }
 
@@ -62,7 +62,7 @@ li a {
 }
 
 .main-section-half h1 {
-  font-size: 65px;
+  font-size: 64px;
   font-weight: bold;
   line-height: 80px;
   color: white;
@@ -127,25 +127,171 @@ li a {
 ----------------------------*/
 
 /*---------------------------
+    Highlight Style Start  
+ ---------------------------*/
+
+#highlight {
+  height: 500px;
+  padding: 50px 200px;
+}
+
+.highlight-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+
+.highlight-half {
+  width: 567px;
+  height: 427px;
+}
+
+.highlight-half h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.highlight-half p {
+  margin: 0px 120px 25px 0px;
+}
+
+.highlight-half img.highlight-banner {
+  width: 100%;
+}
+/*--------------------------
+    Highlight Style End  
+ --------------------------*/
+
+/*---------------------------
+   Fan Feed Style Start 
+----------------------------*/
+#fan-feed-section {
+  padding: 20px 150px;
+}
+
+#fan-feed-section h1 {
+  font-size: 30px;
+}
+
+hr {
+  margin: 10px 0px;
+}
+
+.fan-feed {
+  display: flex;
+}
+
+.fan-feed-half {
+  padding-right: 50px;
+}
+.fan-feed-half p {
+  color: red;
+  font-weight: bold;
+}
+
+.fan-feed-half img.fan-feed-img {
+  width: 200px;
+}
+/*---------------------------
+   Fan Feed Style End 
+----------------------------*/
+
+/*---------------------------
    Footer Style Start 
 ----------------------------*/
 footer {
-height: 220px;
+  height: 220px;
   text-align: center;
 }
 
 footer img.logo {
   width: 483px;
 }
-footer .social-icons i{
-    padding: 10px;
-    color: #969BAB;
-    font-size: 16px;
-    background-color: #e0e2e7;
-    border-radius: 50%;
-    margin:0px 6px 15px 6px;
-    
+footer .social-icons i {
+  padding: 10px;
+  color: #969bab;
+  font-size: 16px;
+  background-color: #e0e2e7;
+  border-radius: 50%;
+  margin: 0px 6px 15px 6px;
 }
+
+footer p {
+  color: black;
+  font-size: 18px;
+}
+
 /*---------------------------
    Footer Style End 
 ----------------------------*/
+
+/* Media Query Style Start */
+@media only screen and (max-width: 688px) {
+  header {
+    height: 400px;
+    padding: 0px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .main-section {
+    width: 520px;
+    height: 400px;
+    display: block;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+  .main-section-half {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .main-section-half h1 {
+    font-size: 50px;
+  }
+  .main-section-half img.banner-img {
+    display: none;
+  }
+
+  #player-article {
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #highlight {
+    padding: 0px 10px;
+    margin: 100px 0px;
+    width: 100px;
+  }
+
+  .highlight-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .highlight-half {
+    height: 260px;
+  }
+
+  .highlight-half h1 {
+    font-size: 30px;
+  }
+
+  .highlight-half img.highlight-banner {
+    width: 370px;
+  }
+
+  #fan-feed-section {
+    padding: 0px;
+  }
+
+  footer img.logo {
+    width: 80%;
+  }
+}
+
+/* Media Query Style End */
