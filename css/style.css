@@ -1,0 +1,53 @@
+/* -----------------------
+    Common Style Start 
+-------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* -----------------------
+    Common Style End 
+-------------------------*/
+
+/* ------------------------------
+    Header Section Style Start 
+--------------------------------*/
+header {
+    background-color: #2D25A0;
+    height: 700px;
+    padding: 20px 150px;
+}
+
+/* nav{
+    padding: 0px 150px;
+} */
+ul{
+    display: flex;
+    justify-content: space-between;
+   
+}
+ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+    
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li a.login-btn{
+    background-color: #E02C6D;
+    padding: 10px 25px;
+}
+/* ------------------------------
+    Header Section Style Start 
+--------------------------------*/
