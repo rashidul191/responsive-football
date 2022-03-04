@@ -5,11 +5,9 @@
   margin: 0px;
   padding: 0px;
 }
-
 body {
   font-family: "Poppins", sans-serif;
 }
-
 .btn-style {
   background-color: #e02c6d;
   padding: 10px 35px;
@@ -17,12 +15,10 @@ body {
   font-size: 16px;
   color: white;
 }
-
 p {
   color: #969bab;
   font-size: 16px;
 }
-
 /* -----------------------
     Common Style End 
 -------------------------*/
@@ -35,7 +31,6 @@ header {
   height: 620px;
   padding: 20px 130px;
 }
-
 ul {
   display: flex;
   justify-content: space-between;
@@ -46,13 +41,11 @@ ul li {
   list-style-type: none;
   padding: 20px;
 }
-
 li a {
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
-
 /* Main section Style start */
 #main-section {
   display: flex;
@@ -60,7 +53,6 @@ li a {
   padding: 0px 20px;
   margin-top: 50px;
 }
-
 .main-section-half h1 {
   font-size: 64px;
   font-weight: bold;
@@ -70,12 +62,10 @@ li a {
   width: 485px;
   height: 230px;
 }
-
 .watch-live-btn:hover {
   transform: scale(1.2);
   transition: transform 1s ease-in-out 0.2s;
 }
-
 #main-section:hover img.banner-img {
   transform: scale(1.15);
   transition: transform 1s ease-in-out 0.2s;
@@ -100,28 +90,23 @@ li a {
   grid-gap: 10px;
   justify-content: space-between;
 }
-
 .players-info {
   height: 474px;
   width: 330px;
   background-color: #ffffff;
 }
-
 .player {
   height: 420px;
   padding: 15px;
   box-shadow: 0px 0px 15px gray;
 }
-
 .player h2 {
   padding: 10px 0px;
   font-size: 24px;
 }
-
 .player img.player-img {
   width: 300px;
 }
-
 /*---------------------------
     Player Article Style End 
 ----------------------------*/
@@ -129,33 +114,27 @@ li a {
 /*---------------------------
     Highlight Style Start  
  ---------------------------*/
-
 #highlight {
   height: 500px;
   padding: 50px 200px;
 }
-
 .highlight-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 10px;
 }
-
 .highlight-half {
   width: 567px;
   height: 427px;
 }
-
 .highlight-half h1 {
   font-size: 48px;
   font-weight: bold;
   line-height: 80px;
 }
-
 .highlight-half p {
   margin: 0px 120px 25px 0px;
 }
-
 .highlight-half img.highlight-banner {
   width: 100%;
 }
@@ -169,19 +148,15 @@ li a {
 #fan-feed-section {
   padding: 20px 150px;
 }
-
 #fan-feed-section h1 {
   font-size: 30px;
 }
-
 hr {
   margin: 10px 0px;
 }
-
 .fan-feed {
   display: flex;
 }
-
 .fan-feed-half {
   padding-right: 50px;
 }
@@ -189,7 +164,6 @@ hr {
   color: red;
   font-weight: bold;
 }
-
 .fan-feed-half img.fan-feed-img {
   width: 200px;
 }
@@ -204,7 +178,6 @@ footer {
   height: 220px;
   text-align: center;
 }
-
 footer img.logo {
   width: 483px;
 }
@@ -216,12 +189,10 @@ footer .social-icons i {
   border-radius: 50%;
   margin: 0px 6px 15px 6px;
 }
-
 footer p {
   color: black;
   font-size: 18px;
 }
-
 /*---------------------------
    Footer Style End 
 ----------------------------*/
@@ -236,63 +207,51 @@ footer p {
     height: 400px;
     padding: 0px;
   }
-
   nav {
     display: none;
   }
-
   .main-section {
     width: 520px;
     height: 400px;
     display: block;
     grid-template-columns: repeat(1, 1fr);
   }
-
   .main-section-half {
     padding: 0px;
     margin: 0px;
   }
-
   .main-section-half h1 {
     font-size: 50px;
   }
   .main-section-half img.banner-img {
     display: none;
   }
-
   #player-article {
     padding-left: 30px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-
   #highlight {
     padding: 0px 10px;
     margin: 100px 0px;
     width: 100px;
   }
-
   .highlight-info {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-
   .highlight-half {
     height: 260px;
   }
-
   .highlight-half h1 {
     font-size: 30px;
   }
-
   .highlight-half img.highlight-banner {
     width: 370px;
   }
-
   #fan-feed-section {
     padding: 0px;
   }
-
   footer img.logo {
     width: 80%;
   }
@@ -302,54 +261,45 @@ footer p {
 /* Medium devices (landscape tablets, 688 and up to 922)  Style Start*/
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-   
     header{
         padding: 20px 70px;
         height: 450px;
+        width: 100%;
     }
-
     ul li{
         padding: 10px;
     }
-
     .main-section-half h1{
         font-size: 45px;
         padding-top: 40px;
         line-height: 60px;
         height: 180px;
         width: 350px;
-
     }
-
     .main-section-half img.banner-img{
         width: 380px;
     }
-
     #player-article{
         margin-left: 60px;
         padding: 50px;
         grid-template-columns: repeat(2, 1fr);
-
     }
-
     #highlight{
         padding: 50px;
     }
-
     .highlight-info{
-     width: 50%;
-      padding: 50px ;
+     width: 950px;
+    }
+    .highlight-half{
+      width: 100%;
     }
     .highlight-half h1{
         font-size: 40px;
     }
-
     .highlight-half img.highlight-banner{
-        width: 300px;
+        width: 400px;
     }
-    
 }
-
 /* Medium devices (landscape tablets, 688 and up to 922)  Style End*/
 
 /*--------------------------------
