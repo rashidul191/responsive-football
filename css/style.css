@@ -203,6 +203,7 @@ footer p {
 
 /* Mobile Device screen size 688  Style Start*/
 @media only screen and (max-width: 688px) {
+  
   header {
     height: 400px;
     padding: 0px;
@@ -260,7 +261,8 @@ footer p {
 
 /* Medium devices (landscape tablets, 688 and up to 922)  Style Start*/
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  
     header{
         padding: 20px 70px;
         height: 450px;
